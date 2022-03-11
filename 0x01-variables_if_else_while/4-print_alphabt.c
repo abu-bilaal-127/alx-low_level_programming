@@ -18,7 +18,7 @@ int main(void)
 
 	while (ch < 123)
 	{
-		if (ch == 101 || ch ==113)
+		if (ch == 101 || ch == 113)
 		{
 			ch++;
 		}
