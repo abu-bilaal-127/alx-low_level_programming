@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  *
  * Description - prints the size of various types on the host machine.
  *
- * Returns 0
+ * Return: 0
 **/
 int main(void)
 {
