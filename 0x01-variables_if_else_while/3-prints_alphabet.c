@@ -34,6 +34,7 @@ int main(void)
 		putchar(chr);
 		chr++;
 	}
+	putchar(10);
 
 	return (0);
 }
