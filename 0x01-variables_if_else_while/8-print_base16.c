@@ -5,7 +5,7 @@
  *
  * Description: print the digits of 0x in lowercase
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
 int main(void)
