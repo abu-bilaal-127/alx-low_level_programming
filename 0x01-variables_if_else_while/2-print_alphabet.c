@@ -21,6 +21,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
+	putchar(10);
 
 	return (0);
 }
