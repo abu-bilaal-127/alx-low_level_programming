@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_alphabet - a void function
+* print_alphabet_x10 - a void function
 *
 * Description - prints the english alphabets 10X.
 *
@@ -9,15 +9,16 @@
 **/
 void print_alphabet_x10(void)
 {
-	int character = 97;
 	int counter = 0;
 
 	while (counter < 9)
 	{
-		while (character < 123)
+		int characta = 97;
+
+		while (characta < 123)
 		{
-			_putchar(character);
-			character++;
+			_putchar(characta);
+			characta++;
 		}
 
 		_putchar('\n');
