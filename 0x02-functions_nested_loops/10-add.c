@@ -1,6 +1,17 @@
 #include "main.h"
 
-int add (int a, int b)
+/**
+* add - adds two integers
+*
+* @a: integer variable
+*
+* @b: integer variable
+*
+* Description - adds two integers and return 'em
+*
+* Return: integer
+**/
+int add(int a, int b)
 {
 	return (a + b);
 }
