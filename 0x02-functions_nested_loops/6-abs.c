@@ -3,22 +3,22 @@
 /**
 * _abs - absolute value
 *
-* @int - integer value
+* @n: integer value
 *
 * Description - computes absolute value of an int
 *
-* Return - 0
+* Return: 0
 **/
-int _abs(int)
+int _abs(int n)
 {
-	if (int < 0)
+	if (n < 0)
 	{
-		int *= -1;
+		n *= -1;
 	}
 	else
 	{
-		int *= 1;
+		n *= 1;
 	}
 
-	return(0);
+	return (0);
 }
