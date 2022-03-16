@@ -11,7 +11,7 @@ void times_table(void)
 {
 	int multiplier, number;
 
-	mulitplier = 0;
+	multiplier = 0;
 
 	while (multiplier < 10)
 	{
