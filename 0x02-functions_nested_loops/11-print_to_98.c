@@ -22,14 +22,14 @@ void print_to_98(int n)
 	{
 		while (n > 99)
 		{
-			printf("%d, " n);
+			printf("%d, ", n);
 			n--;
 		}
 	}
 	else
 	{
 		printf("%d\n", n);
-		break;
+		return;
 	}
 
 	printf("98\n");
