@@ -10,7 +10,7 @@ void rev_string(char *s)
 {
 	int counter, rev_index, rev_string_index;
 
-	char rev_string[];
+	char *rev_string[];
 
 	counter = 0;
 	rev_index = -1;
@@ -26,5 +26,5 @@ void rev_string(char *s)
 		counter--;
 	}
 
-	*s = rev_string;
+	*s = *rev_string;
 }
