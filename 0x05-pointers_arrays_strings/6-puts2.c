@@ -7,26 +7,33 @@
 * @str: pointer variable
 * Return: void
 **/
-void _puts2(char *str)
+void puts2(char *str)
 {
-	int index, index2;
 
-	index = 0;
-	index2 = 0;
+	int count = 0;
 
-	while (str[index] != '\0')
+
+
+	while (count >= 0)
+
 	{
-		if (str[index2] == '\0')
+
+		if (str[count] == '\0')
+
 		{
+
+			_putchar('\n');
+
 			break;
+
 		}
-		else
-		{
-			_putchar(str[index2]);
-			index2 += 2;
-			index++;
-		}
+
+		if (count % 2 == 0)
+
+			_putchar(str[count]);
+
+		count++;
+
 	}
 
-	_putchar('\n');
 }
