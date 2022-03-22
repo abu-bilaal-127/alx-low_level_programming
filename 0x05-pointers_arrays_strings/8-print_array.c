@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 	int index = 0;
 	int counter = 0;
 
-	while (*(s + counter) != '\0')
+	while (*(a + counter) != '\0')
 		counter++;
 
 	while (index != n)
@@ -30,7 +30,7 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-			printf("%d, " a[index]);
+			printf("%d, ", a[index]);
 			index++;
 		}
 	}
