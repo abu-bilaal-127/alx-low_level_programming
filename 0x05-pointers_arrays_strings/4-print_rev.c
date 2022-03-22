@@ -8,15 +8,14 @@
 **/
 void print_rev(char *s)
 {
-	int counter, rev_index;
+	int counter;
 
 	counter = 0;
-	rev_index = -1;
 
 	while (*(s + counter) != 0)
 		counter++;
 
-	while (counter != rev_index)
+	while (counter >= 0)
 	{
 		_putchar(s[counter]);
 		counter--;
