@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
-* _puts2 - prints every other character of a string
+* puts2 - prints every other character of a string
+*
 * Description - prints every other character of a string
 *followed by a newline, starting with the firs character.
+*
 * @str: pointer variable
 * Return: void
 **/
