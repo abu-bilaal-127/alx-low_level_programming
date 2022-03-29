@@ -9,29 +9,27 @@
  */
 
 void print_diagsums(int *a, int size)
+
 {
-	int i;
-	int bdiagsum = 0;
-	int fdiagsum = 0;
-	int prev = 0;
 
-	for (i = 0; i < size * size; i++)
+	int i, sum1 = 0, sum2 = 0;
+
+
+
+	for (i = 0; i < (size * size); i++)
+
 	{
-		if (i == 0)
-		{
-			bdiagsum += *(a + i);
-			prev = i;
-		}
-		else if (i == (prev + size + 1))
-		{
-			bdiagsum += *(a + i);
-			prev = i;
-		}
+
+		if (i % (size + 1) == 0)
+
+			sum1 += *(a + i);
+
+		if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
+
+			sum2 += *(a + i);
+
 	}
 
-	for (i = 0; i < size; i++)
-	{
-		fdiagsum += *(a + (size * (i + 1) - (i + 1)));
-	}
-	printf("%d, %d\n", bdiagsum, fdiagsum);
+	printf("%d, %d\n", sum1, sum2);
+
 }
